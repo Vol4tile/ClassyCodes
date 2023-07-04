@@ -1,0 +1,11 @@
+.ql-editor {
+  min-height: 200px;
+}
+.createQuestionButton {
+  border-color: #0b0c10 !important;
+}
+.createQuestion pre {
+  background-color: rgba(196, 196, 196, 0.97) !important;
+  color: #0b0c10 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}

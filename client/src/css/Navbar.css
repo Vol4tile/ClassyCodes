@@ -1,0 +1,113 @@
+.rotating {
+  -webkit-transform: rotate(0deg);
+  -webkit-transform: rotate(360deg);
+  -webkit-transition-duration: 1s;
+
+  -webkit-transition-delay: now;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+.ustTaraf {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #66fcf1;
+  height: 8vh;
+}
+.search input[type="text"] {
+  width: 300px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+}
+
+.search {
+  float: right;
+  margin: 7px;
+  position: relative;
+}
+
+.search input[type="text"]:focus {
+  outline: 2px solid #11c2b6;
+  padding: 10px;
+}
+a,
+a:visited,
+a:focus {
+  text-decoration: none !important;
+  color: #66fcf1;
+}
+a:hover {
+  color: #11c2b6 !important;
+}
+
+.ustTaraf ul {
+  list-style: none;
+  padding-top: 10px;
+  padding: 0;
+  height: 4vh;
+}
+.ustTaraf li {
+  font-size: 17px;
+  float: left;
+  position: relative;
+
+  width: 200px;
+}
+
+.ustTaraf ul li ul {
+  display: none;
+}
+
+.ustTaraf ul li:hover ul {
+  display: block;
+}
+.ustTaraf ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  position: relative;
+  left: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+
+  margin-right: 4px;
+  padding: 5px;
+}
+.ustTaraf li ul {
+  position: absolute;
+
+  z-index: 999;
+}
+.ustTaraf ul li ul li a {
+  padding-right: 20px;
+  background-color: black;
+  text-align: center;
+
+  font-size: 0.8em;
+}
+.ustTaraf ul li ul li a:hover {
+  padding-right: 0px;
+  color: rgb(253, 171, 0);
+  transition: 0.5s;
+}
+
+
+.rotate {
+  animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.spinner {
+  position: relative;
+  left: 45%;
+  top: 45%;
+}

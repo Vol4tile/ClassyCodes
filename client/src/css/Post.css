@@ -1,0 +1,8 @@
+.container {
+  text-align: center;
+}
+
+img {
+  max-height: 800px;
+  max-width: 100%;
+}
