@@ -1,5 +1,5 @@
 # ClassyCodes
- MERN
+ MERN Stack Code sharing and support platform
  
  cd client && npm start  
  cd server && npm start
